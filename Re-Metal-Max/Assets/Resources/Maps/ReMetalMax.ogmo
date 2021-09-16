@@ -1,6 +1,6 @@
 {
   "name": "ReMetalMax",
-  "ogmoVersion": "3.3.0",
+  "ogmoVersion": "3.4.0",
   "levelPaths": ["."],
   "backgroundColor": "#282c34ff",
   "gridColor": "#3c4049cc",
@@ -127,14 +127,13 @@
           "defaults": 0
         },
         {
-          "name": "TestList",
-          "definition": "List",
+          "name": "Scripts",
+          "definition": "Filepath",
           "display": 0,
-          "values": [],
-          "defaults": [
-            {"content": "1", "type": "int"},
-            {"content": "2", "type": "float"}
-          ]
+          "defaults": "Scripts::0",
+          "extensions": ["json"],
+          "roots": ["Scripts"],
+          "projectpath": "D:\\Projects\\MyProject\\Re-Metal-Max\\Re-Metal-Max\\Assets\\Resources"
         }
       ]
     },

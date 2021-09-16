@@ -1,0 +1,14 @@
+{
+    "event_type": "auto",
+    "events": [
+        ["move", {
+            "aid": "test_char",
+            "path_relative": [
+                "L", "L", "D", "D"
+            ]
+        }],
+        ["msg_common", "msg_pkg_test$1"],
+        ["msg_common", "msg_pkg_test$2"],
+        ["msg_common", "msg_pkg_test$3"]
+    ]
+}
